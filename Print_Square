@@ -1,0 +1,16 @@
+def square(s):
+    for i in range(s):
+        if i == 0 :       
+            print("* "*s) 
+        elif i<s-1 :
+            print("* "," "*(s-2),"*")
+        else:
+            print("* "*s)
+
+# Input: 
+# 4
+# Output: 
+# * * * *
+# *     *
+# *     *
+# * * * *
