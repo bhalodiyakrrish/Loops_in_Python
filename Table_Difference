@@ -1,0 +1,9 @@
+def difference(n1,n2):
+    if n1 > n2:
+     for i in range(1,11):
+        print( (n1*i)-(n2*i),end=' ')
+
+# Input:
+# n1 = 9, n2 = 4
+# Output:
+# 5 10 15 20 25 30 35 40 45 50 
