@@ -6,7 +6,12 @@ def square(s):
             print("* "," "*(s-2),"*")
         else:
             print("* "*s)
-
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        s=int(input())
+        square(s)
+        
 # Input: 
 # 4
 # Output: 
