@@ -6,6 +6,7 @@ if __name__ == '__main__':
     for _ in range(t):
         s=int(input())
         triangleWall(s)
+
 # Input: 
 # 4
 # Output: 
