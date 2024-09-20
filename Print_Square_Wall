@@ -1,0 +1,12 @@
+def squareWall(s):
+    for i in range(s):
+         print("* "*s)
+
+# Input: 
+# 5
+# Output: 
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
