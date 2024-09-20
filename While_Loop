@@ -3,11 +3,14 @@ def utility():
     while(x >= 0):
         print(x, end=" ")
         x -= 1
+def main():
+    testcases = int(input())
+    while(testcases > 0): 
+        utility()
+        print()
+        testcases -= 1
 if __name__ == '__main__':
-    t=int(input())
-    for _ in range(t):
-        s=int(input())
-        triangleWall(s)
+    main()
 
 # Input:
 # 3
