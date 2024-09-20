@@ -2,6 +2,12 @@ def difference(n1,n2):
     if n1 > n2:
      for i in range(1,11):
         print( (n1*i)-(n2*i),end=' ')
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        n1,n2 =map(int,input().split())
+        difference(n1,n2)
+        print()   
 
 # Input:
 # n1 = 9, n2 = 4
