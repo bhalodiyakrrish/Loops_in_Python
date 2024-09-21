@@ -1,0 +1,18 @@
+def invTriangleWall(s):
+    for i in range(s):
+        for j in range(s):
+            print("* "*(s-j))
+        break
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        s=int(input())
+        invTriangleWall(s)
+
+# For Input: 
+# 4
+# Your Output: 
+# * * * *
+# * * *
+# * *
+# *
