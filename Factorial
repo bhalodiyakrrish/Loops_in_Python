@@ -10,7 +10,7 @@ if __name__ == '__main__':
         ans = nFactorial(n)
         print(ans)
 
-# For Input: 
+# Input: 
 # 10
-# Your Output: 
+# Output: 
 # 3628800
