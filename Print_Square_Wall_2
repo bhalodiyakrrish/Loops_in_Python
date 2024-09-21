@@ -1,0 +1,19 @@
+def squareWall(s):
+    for i in range(s):       
+        for j in range(s):
+            print("*",end =" ")
+        print()
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        s=int(input())
+        squareWall(s)
+
+# Input: 
+# 5
+# Output: 
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
