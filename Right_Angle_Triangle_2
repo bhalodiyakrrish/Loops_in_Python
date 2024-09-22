@@ -1,0 +1,26 @@
+def triangle(s):
+    for i in range(s):
+        if i == 0:
+            print('*')
+        elif i == s-1:
+            print('* ' * s)
+        else:
+            print('*', '  ' * i , '*',sep='')
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        s=int(input())
+        triangle(s)
+
+# Input: 
+# 9
+# Output: 
+# *
+# *  *
+# *    *
+# *      *
+# *        *
+# *          *
+# *            *
+# *              *
+# * * * * * * * * *
