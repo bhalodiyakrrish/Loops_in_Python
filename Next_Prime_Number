@@ -1,0 +1,20 @@
+def nextPrime(n):
+    n= n+1
+    while True:
+        for i in range(2,n):
+            if n%i==0:
+                break
+            else: 
+                return n
+        n+=1
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        n=int(input())
+        ans = nextPrime(n)
+        print(ans)
+
+# Input: 
+# 15
+# Output: 
+# 17
