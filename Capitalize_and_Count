@@ -1,0 +1,16 @@
+class Solution:
+    def capCount(self,s):
+        print(s.title().strip())
+        print(len(s.split(" ")))
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        s = input()
+        ob=Solution()
+        ob.capCount(s)
+
+# Input: 
+# welcome to the world of geeks
+# Output: 
+# Welcome To The World Of Geeks
+# 6
