@@ -2,7 +2,7 @@ Loops in Python
 
 Overview
 
-This repository contains examples and explanations of various types of loops in Python, including for loops, while loops, and nested loops.
+This repository contains examples of various types of loops in Python, including for loops, while loops, and nested loops.
 It is designed to help beginners understand the fundamentals of looping constructs in Python.
 
 Features
